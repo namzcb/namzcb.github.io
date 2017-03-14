@@ -8,6 +8,12 @@
 	
 }
 	
-}
 body {
+	background-image: url("wood.jpg");
+	background-size: cover;
+    background-position: center;
+}
+
+.main {
+	color:white;
 }
