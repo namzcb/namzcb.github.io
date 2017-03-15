@@ -1,11 +1,18 @@
+body {
+	background-image: url("wood.jpg");
+	background-size: cover;
+    background-position: center;
+	cursor: url('leaf_logo.png'), default;
+}
+
 .jumbotron {
 	color: rgba(108, 139, 101, 1);
 	background: rgba(235, 255, 183, 1);
 	font-family: 'Maiden Orange', cursive;
-	text-align: center;	
+	text-align: center;
 }
-	
-.lead {
+
+.col-md-8 {
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
 	color: white;
@@ -28,12 +35,6 @@
 	font-family: 'Maiden Orange', cursive;
 	font-size: large;
 	color: white;
-}
-
-body {
-	background-image: url("wood.jpg");
-	background-size: cover;
-    background-position: center;
 }
 
 .main {
