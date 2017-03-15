@@ -42,6 +42,10 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+#map {
+	margin: 0 auto;
+}
+
 .form {
 	color:rgba(108, 139, 101, 1);
 }
