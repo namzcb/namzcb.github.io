@@ -1,45 +1,78 @@
+@font-face {
+font-family: 'Swallow_Falls';
+src: url(Swallow_Falls.ttf);
+}
+
 body {
 	background-image: url("wood.jpg");
 	background-size: cover;
     background-position: center;
-	cursor: url('leaf_logo.png'), default;
+    background-attachment: fixed;
+	cursor: url('leaf2.png'), default;
 }
 
 .jumbotron {
-	color: rgba(108, 139, 101, 1);
-	background: rgba(235, 255, 183, 1);
-	font-family: 'Maiden Orange', cursive;
+	color: rgba(26, 182, 189, 1);
+	font-family: 'Swallow_Falls', cursive;
 	text-align: center;
+	/*background: rgba(224, 236, 139, 1); */
+	background: rgba(243, 250, 182, 1);
+  	background: -webkit-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.5));
+  	background: -o-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.5));
+    background: -moz-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.5));
+    background: linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.5));
+    margin: 0px;
 }
 
-.col-md-8 {
-	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
-	color: white;
+.navbar-default {
+    background-color: rgba(243, 250, 182, 0.5);
+    border-color: rgba(224, 236, 139, 0);
+    margin-top: 0px;
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+    font-family: 'Swallow_Falls';
+    color: rgba(251, 254, 245, 1);
+    text-align: center;
+    font-size: 30px;
+}
+
+.navbar-right {
+float: right;
+
 }
 
 .jumbotron .col-md-6 {
 	text-align: center;
 	display: inline-grid;
-	padding-left: 100px;
 }
 
-
 .pagetitle {
-	font-family: 'Maiden Orange', cursive;
+	font-family: 'Swallow_Falls', cursive;
+	color: white;
+	text-align: center;
+	font-size: 100px;
+}
+
+.lead {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+}
+
+.restaurant {
+	font-family: 'Swallow_Falls', cursive;
 	color: white;
 	text-align: center;
 }
 
-.restaurant {
-	font-family: 'Maiden Orange', cursive;
-	font-size: large;
+.main {
 	color: white;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
-.main {
-	color:white;
-	font-family: 'Josefin Sans', sans-serif;
+.col-md-8 .col-sm-6 {
+	text-align: center;
 }
 
 #map {
