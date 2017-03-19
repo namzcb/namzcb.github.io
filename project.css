@@ -25,8 +25,12 @@ body {
 }
 
 .navbar-default {
-    background-color: rgba(243, 250, 182, 0.5);
-    border-color: rgba(224, 236, 139, 0);
+    background: rgba(243, 250, 182, 0.5);
+  	background: -webkit-linear-gradient(rgba(243, 250, 182, 0.5), rgba(243, 250, 182, 0));
+  	background: -o-linear-gradient(rgba(243, 250, 182, 0.5), rgba(243, 250, 182, 0));
+    background: -moz-linear-gradient(rgba(243, 250, 182, 0.5), rgba(243, 250, 182, 0));
+    background: linear-gradient(rgba(243, 250, 182, 0.5), rgba(243, 250, 182, 0));
+    border: rgba(224, 236, 139, 0);
     margin-top: 0px;
     border-radius: 0px;
 }
