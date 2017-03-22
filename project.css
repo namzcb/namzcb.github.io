@@ -4,7 +4,7 @@ src: url(Swallow_Falls.ttf);
 }
 
 body {
-	background-image: url("wood.jpg");
+	background-image: url("leaves_blur.jpg");
 	background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -12,38 +12,34 @@ body {
 }
 
 .jumbotron {
-	color: rgba(50, 181, 190, 1);
+	color: rgba(10, 120, 140, 1);
 	font-family: 'Swallow_Falls', cursive;
 	text-align: center;
-	background: rgba(243, 250, 182, 1);
-	background: -webkit-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.7), rgba(243, 250, 182, 0.2));
-  	background: -o-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.2));
-    background: -moz-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.2));
-    background: linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.7));
-
+	background: rgba(243, 250, 182, 0.8);
+	/*background: -webkit-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));
+  	background: -o-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));
+    background: -moz-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));
+    background: linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));*/
     margin: 0px;
 }
 
 .navbar-default {
     background: rgba(243, 250, 182, 0.5);
-  	background: -webkit-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0));
-  	background: -o-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0));
-    background: -moz-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0));
-    background: linear-gradient(rgba(243, 250, 182, 0.7), rgba(243, 250, 182, 0));
+  	/*background: -webkit-linear-gradient(rgba(243, 250, 182, 0.7), rgba(243, 250, 182, 0));
+  	background: -o-linear-gradient(rgba(243, 250, 182, 0.7), rgba(243, 250, 182, 0));
+    background: -moz-linear-gradient(rgba(243, 250, 182, 0.7), rgba(243, 250, 182, 0));
+    background: linear-gradient(rgba(243, 250, 182, 0.8), rgba(243, 250, 182, 0.5), rgba(243, 250, 182, 0));*/
     border: rgba(224, 236, 139, 0);
     margin-top: 0px;
     border-radius: 0px;
+    padding-top: 10px;
 }
+
 .navbar-default .navbar-nav > li > a {
     font-family: 'Swallow_Falls';
-    color: rgba(225, 245, 245, 1);
+    color: rgba(255, 255, 255, 1);
     text-align: center;
     font-size: 30px;
-}
-
-.navbar-right {
-float: right;
-
 }
 
 .jumbotron .col-md-6 {
@@ -73,6 +69,11 @@ float: right;
 .main {
 	color: rgba(255, 255, 255, 1);
 	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.table {
+	background: rgba(255, 255, 255, 0.2);
 }
 
 .col-md-8 .col-sm-6 {
