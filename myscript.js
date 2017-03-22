@@ -4,7 +4,3 @@ $(function(){
 	});
 });
 
-$(function(){
-	$(".submit").click(function(){
-	    alert("Thank you");
-});
