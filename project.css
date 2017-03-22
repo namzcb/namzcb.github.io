@@ -60,7 +60,7 @@ body {
 	color: rgba(255, 255, 255, 1);
 }
 
-.sub {
+.sub-text {
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
 	color: rgba(255, 255, 255, 1);
@@ -89,6 +89,17 @@ body {
 	margin: 0 auto;
 }
 
+
+input[name=restaurantname] {
+		background: rgba(255, 240, 255, 0.2);
+		border: 0px;
+		color:rgba(255, 255, 255, 1);
+		text-align: center;
+		height: 30px;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
+
 input[name=tip] {
 		background: rgba(255, 240, 255, 0.2);
 		border: 0px;
@@ -116,6 +127,15 @@ input[type=email] {
 		font-family: 'Josefin Sans', sans-serif;
 }
 
+input[type=tel] {
+		background: rgba(255, 240, 255, 0.2);
+		border: 0px;
+		color:rgba(255, 255, 255, 1);
+		text-align: center;
+		height: 30px;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
 input[type=submit] {
 	background: rgba(200, 255, 200, 0.7);
 	border: 0px;
@@ -125,4 +145,16 @@ input[type=submit] {
 	font-family: 'Swallow_Falls', cursive;
 	font-size: 20px;
 	margin-bottom: 10px;
+}
+
+.sub {
+	text-align: center;
+	font-family: 'Swallow_Falls', cursive;
+	color:rgba(243, 250, 182, 1);
+}
+
+.bio {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color:rgba(255, 255, 255, 1);
 }
