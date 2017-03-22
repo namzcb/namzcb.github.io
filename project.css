@@ -16,19 +16,11 @@ body {
 	font-family: 'Swallow_Falls', cursive;
 	text-align: center;
 	background: rgba(243, 250, 182, 0.8);
-	/*background: -webkit-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));
-  	background: -o-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));
-    background: -moz-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));
-    background: linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));*/
     margin: 0px;
 }
 
 .navbar-default {
     background: rgba(243, 250, 182, 0.5);
-  	/*background: -webkit-linear-gradient(rgba(243, 250, 182, 0.7), rgba(243, 250, 182, 0));
-  	background: -o-linear-gradient(rgba(243, 250, 182, 0.7), rgba(243, 250, 182, 0));
-    background: -moz-linear-gradient(rgba(243, 250, 182, 0.7), rgba(243, 250, 182, 0));
-    background: linear-gradient(rgba(243, 250, 182, 0.8), rgba(243, 250, 182, 0.5), rgba(243, 250, 182, 0));*/
     border: rgba(224, 236, 139, 0);
     margin-top: 0px;
     border-radius: 0px;
