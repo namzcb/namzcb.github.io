@@ -60,6 +60,12 @@ body {
 	color: rgba(255, 255, 255, 1);
 }
 
+.sub {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgba(255, 255, 255, 1);
+}
+
 .restaurant {
 	font-family: 'Swallow_Falls', cursive;
 	color: rgba(243, 250, 182, 1);
@@ -69,7 +75,6 @@ body {
 .main {
 	color: rgba(255, 255, 255, 1);
 	font-family: 'Josefin Sans', sans-serif;
-
 }
 
 .table {
@@ -84,6 +89,31 @@ body {
 	margin: 0 auto;
 }
 
-.form {
-	color:rgba(108, 139, 101, 1);
+input[type=text] {
+		background: rgba(255, 240, 255, 0.2);
+		border: 0px;
+		color:rgba(255, 255, 255, 1);
+		text-align: center;
+		height: 50px;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=email] {
+		background: rgba(255, 240, 255, 0.2);
+		border: 0px;
+		color:rgba(255, 255, 255, 1);
+		text-align: center;
+		height: 50px;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=submit] {
+	background: rgba(200, 255, 200, 0.7);
+	border: 0px;
+	height: 50px;
+	width: 80px;
+	text-align: center;
+	font-family: 'Swallow_Falls', cursive;
+	font-size: 20px;
+	margin-bottom: 10px;
 }
