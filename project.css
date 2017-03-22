@@ -16,19 +16,11 @@ body {
 	font-family: 'Swallow_Falls', cursive;
 	text-align: center;
 	background: rgba(243, 250, 182, 0.8);
-	/*background: -webkit-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));
-  	background: -o-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));
-    background: -moz-linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));
-    background: linear-gradient(rgba(243, 250, 182, 1), rgba(243, 250, 182, 0.6));*/
     margin: 0px;
 }
 
 .navbar-default {
     background: rgba(243, 250, 182, 0.5);
-  	/*background: -webkit-linear-gradient(rgba(243, 250, 182, 0.7), rgba(243, 250, 182, 0));
-  	background: -o-linear-gradient(rgba(243, 250, 182, 0.7), rgba(243, 250, 182, 0));
-    background: -moz-linear-gradient(rgba(243, 250, 182, 0.7), rgba(243, 250, 182, 0));
-    background: linear-gradient(rgba(243, 250, 182, 0.8), rgba(243, 250, 182, 0.5), rgba(243, 250, 182, 0));*/
     border: rgba(224, 236, 139, 0);
     margin-top: 0px;
     border-radius: 0px;
@@ -60,6 +52,12 @@ body {
 	color: rgba(255, 255, 255, 1);
 }
 
+.sub-text {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgba(255, 255, 255, 1);
+}
+
 .restaurant {
 	font-family: 'Swallow_Falls', cursive;
 	color: rgba(243, 250, 182, 1);
@@ -69,7 +67,6 @@ body {
 .main {
 	color: rgba(255, 255, 255, 1);
 	font-family: 'Josefin Sans', sans-serif;
-
 }
 
 .table {
@@ -84,6 +81,72 @@ body {
 	margin: 0 auto;
 }
 
-.form {
-	color:rgba(108, 139, 101, 1);
+
+input[name=restaurantname] {
+		background: rgba(255, 240, 255, 0.2);
+		border: 0px;
+		color:rgba(255, 255, 255, 1);
+		text-align: center;
+		height: 30px;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
+
+input[name=tip] {
+		background: rgba(255, 240, 255, 0.2);
+		border: 0px;
+		color:rgba(255, 255, 255, 1);
+		text-align: center;
+		height: 60px;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
+input[name=tipname] {
+		background: rgba(255, 240, 255, 0.2);
+		border: 0px;
+		color:rgba(255, 255, 255, 1);
+		text-align: center;
+		height: 30px;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=email] {
+		background: rgba(255, 240, 255, 0.2);
+		border: 0px;
+		color:rgba(255, 255, 255, 1);
+		text-align: center;
+		height: 30px;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=tel] {
+		background: rgba(255, 240, 255, 0.2);
+		border: 0px;
+		color:rgba(255, 255, 255, 1);
+		text-align: center;
+		height: 30px;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=submit] {
+	background: rgba(200, 255, 200, 0.7);
+	border: 0px;
+	height: 50px;
+	width: 80px;
+	text-align: center;
+	font-family: 'Swallow_Falls', cursive;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.sub {
+	text-align: center;
+	font-family: 'Swallow_Falls', cursive;
+	color:rgba(243, 250, 182, 1);
+}
+
+.bio {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color:rgba(255, 255, 255, 1);
 }

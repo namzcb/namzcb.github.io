@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
-<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
-<link href='project.css' rel='stylesheet'>
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Maiden+Orange" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <head>
-  <title>Submit a Tip | Cheffield! | Healthy and Ethical Eating in Sheffield</title>
+	<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+	<link href='project.css' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Maiden+Orange" rel="stylesheet">
+	<script src=https://code.jquery.com/jquery-3.1.1.min.js></script>
+  	<script src='myscript.js'></script>
+
+
+  <title>About Us | Cheffield! | Healthy and Ethical Eating in Sheffield</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -13,10 +16,10 @@
   		<div class="container">
     		<div class='row'>
     		<div class='col-md-5'>
-  				<a href="https://namzcb.github.io/"><img src='CheffieldLogo.png' class="img-responsive" alt="Cheffield"></a>
+  				<a href="https://namzcb.github.io/"><img src='CheffieldLogo.png' id="cheffield" class="img-responsive" alt="Cheffield"></a>
   			</div>
     		<div class='col-md-7'>
-    			<h1 class="display-5">Welcome to Cheffield</h1>
+    			<h1 class="display-5 welcome">Welcome to Cheffield</h1>
     			<p class="subtitle">Local, ethical eating in Sheffield</p>
     		</div>
     		</div>
@@ -24,7 +27,7 @@
 		</div>
 
 
-<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -51,32 +54,45 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-<!-- Submit a Tip form -->
 <div class="container-fluid">
-  <div class="row">
-  		<div class="col-md-8 col-md-offset-2">
-  			    <h2 class="pagetitle">Submit a Tip</h2>
-   				<p class="lead">Know something we don't? We're always on the look out for new hidden tips and insider knowledge to keep Cheffield fresh!</p>
-   				<p class="sub-text">New restaurant you've visited that's awesome but somehow isn't already on our list? Wifi password changed? Secret password gets you extra chips?</p>
-  			<form>
-				<div align="center" class="form">
-					<br>
-					<input type="text" name="restaurantname" size="100%" value="Restaurant Name">
-					<br><br>
-					<input type="text" name="tip" size="100%" value="Submit your tip here!">
-					<br><br>
-					<input type="text" name="tipname" size="100%" value="Name">
-					<br><br>
-					<input type="Email" size="100%" value="Email Address">
-					<br><br>
-					<input type="submit" value="Submit"><br>
-				</div>
-			</form>
- 		</div>
+	<div class="row">
+    	<div class="col-md-8 col-md-offset-2">
+    		<h2 class="pagetitle">About Us</h2>
+    		<p class="lead">Just three local girls who love to eat</p>
+    	</div>
 	</div>
 </div>
+
+<div id="Us">
+    	<div class='col-md-4'>
+    		<div>
+     			<p class="text-center">
+      			<img src='naomi.png' class="img-circle">
+      			</p>
+      			<h3 class="sub">Naomi</h3>
+      			<p class="bio">Favourite food: Falafel</p>
+    		</div>
+    	</div>
+    	<div class='col-md-4'>
+    		<div>
+      			<p class="text-center">
+      			<img src='caitlin.png' class="img-circle" class="text-center">
+      			</p>
+      			<h3 class="sub">Caitlin</h3>
+      			<p class="bio">Favourite food: Ice cream</p>
+    		</div>
+    	</div>
+    	<div class='col-md-4'>
+    		<div>
+      			<p class="text-center">
+      			<img src='robin.png' class ="img-circle">
+      			</p>
+   				<h3 class="sub">Robin</h3>
+   				<p class="bio">Favourite food: Banana cake</p>
+    		</div>
+    	</div> 
+</div>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
-
-
 </html>
